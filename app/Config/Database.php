@@ -25,12 +25,12 @@ class Database extends Config
      * @var array<string, mixed>
      */
     public array $default = [
-        'DSN'          => 'mysql:host=127.0.0.1;port=3306;dbname=railway;charset=utf8mb4',
-        'hostname'     => '127.0.0.1',
-        'username'     => 'root',
-        'password'     => 'LjyiiEnoIONWkFDTauZXQmGTGRAvfRBC',
-        'database'     => 'railway',
-        'DBDriver'     => 'MySQLi',
+        'DSN'          => '',
+    'hostname'     => 'mysql.railway.internal', // Atau gunakan 127.0.0.1
+    'username'     => 'root',
+    'password'     => 'LjyiiEnoIONWkFDTauZXQmGTGRAvfRBC', // Salin persis dari dashboard
+    'database'     => 'railway',
+    'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
         'DBDebug'      => true,
