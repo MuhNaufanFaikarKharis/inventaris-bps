@@ -12,7 +12,8 @@
     "require": {
         "php": "^8.2",
         "codeigniter4/framework": "^4.7",
-        "ext-intl":"*"
+        "ext-intl":"*",
+        "ext-mysqli": "*"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9",
