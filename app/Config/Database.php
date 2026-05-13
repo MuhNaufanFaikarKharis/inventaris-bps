@@ -25,10 +25,10 @@ class Database extends Config
      * @var array<string, mixed>
      */
     public array $default = [
-        'DSN'          => '',
-        'hostname'     => 'localhost',
+        'DSN'          => 'mysql:host=127.0.0.1;port=3306;dbname=railway;charset=utf8mb4',
+        'hostname'     => '127.0.0.1',
         'username'     => 'root',
-        'password'     => '',
+        'password'     => 'LjyiiEnoIONWkFDTauZXQmGTGRAvfRBC',
         'database'     => 'railway',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',

@@ -10,11 +10,11 @@
         "slack": "https://codeigniterchat.slack.com"
     },
     "require": {
-        "php": "^8.2",
-        "codeigniter4/framework": "^4.7",
-        "ext-intl": "*",
-        "ext-mysqli": "*"
-    },
+    "php": "^8.2",
+    "codeigniter4/framework": "^4.7",
+    "ext-intl": "*",
+    "ext-mysqli": "*"
+},
     "require-dev": {
         "fakerphp/faker": "^1.9",
         "mikey179/vfsstream": "^1.6",
