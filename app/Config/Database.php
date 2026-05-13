@@ -26,11 +26,11 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-    'hostname'     => 'mysql.railway.internal', // Atau gunakan 127.0.0.1
-    'username'     => 'root',
-    'password'     => 'LjyiiEnoIONWkFDTauZXQmGTGRAvfRBC', // Salin persis dari dashboard
-    'database'     => 'railway',
-    'DBDriver'     => 'MySQLi',
+        'hostname'     => 'viaduct.proxy.rlwy.net',
+        'username'     => 'root',
+        'password'     => 'LjyiiEnoIONWkFDTauZXQmGTGRAvfRBC',
+        'database'     => 'railway',
+        'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
         'DBDebug'      => true,
@@ -41,7 +41,7 @@ class Database extends Config
         'compress'     => false,
         'strictOn'     => false,
         'failover'     => [],
-        'port'         => 3306,
+        'port'         => 24591,
         'numberNative' => false,
         'foundRows'    => false,
         'dateFormat'   => [
